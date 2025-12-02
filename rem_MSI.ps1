@@ -1,4 +1,4 @@
-$computerListPath = 'C:\Powershell\mine\ibm_computers.txt'
+$computerListPath = 'Installation-Scripts\computernames.txt'
 $computerList = Get-Content -Path $computerListPath
 $cred = Get-Credential -Credential "$env:UserDomain\$env:UserName"
 $search = [name]
