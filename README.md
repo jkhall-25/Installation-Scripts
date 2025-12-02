@@ -5,3 +5,5 @@ To use them, ensure that the ComputerListPath variable points to the correct fil
 These are small scale scripts originally intended to be run on 10-20 machines at a time. Before running in bulk, they should be more thoroughly tested, and it would likely be more efficient to print the output to a CSV file rather than to the console. Other improvements include parsing the ComputerNames document within the script to remove trailing whitespace automatically, as well as perfecting the output of the $result variable. 
 
 Although imperfect, these scripts served me well during my 6 month contract on a Software Remediation team, so further refinement was deemed unnecessary. 
+
+I also wrote installation scripts, but in my position, installation involved proprietary and confidential steps which I cannot share on GitHub.
