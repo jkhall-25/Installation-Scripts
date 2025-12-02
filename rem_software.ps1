@@ -1,4 +1,4 @@
-$computerListPath = 'C:\Powershell\mine\ibm_computers.txt'
+$computerListPath = 'Installation-Scripts\computernames.txt'
 $computerList = Get-Content -Path $computerListPath
 $search = [name]
 
