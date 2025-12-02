@@ -1,0 +1,7 @@
+These scripts were developed during my time at as a Software Remediation Contractor to more efficiently uninstall software via remote access CLI. Our team's responsibility included following after large (>500) automatic batch installations and manually installing or uninstalling the relevant software in cases where the automatic installation or uninstallation failed. The scripts are general use and can be tailored to a specific task by changing the placeholder values. 
+
+To use them, ensure that the ComputerListPath variable points to the correct file location. Also, ensure that the ComputerNames.txt file contains a single computer per line, with NO trailing whitespace or blank lines, as these may cause unexpected behavior. Then run the script as an Administrator. Successful uninstalls will print a confirmation message, and unsuccessful uninstalls will throw an error. 
+
+These are small scale scripts originally intended to be run on 10-20 machines at a time. Before running in bulk, they should be more thoroughly tested, and it would likely be more efficient to print the output to a CSV file rather than to the console. Other improvements include parsing the ComputerNames document within the script to remove trailing whitespace automatically, as well as perfecting the output of the $result variable. 
+
+These scripts served me well during my 6 month contract on a Software Remediation team.
